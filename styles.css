@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #070707;
+}
+
+.header {
+    background-color: #ff66b2;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    background-image: url('doceria.jpg');
+    font-family: 'cursivas', cursive;
+    font-size: 28px; /* Tamanho grande para destaque */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Alinhamento centralizado */
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hero {
+    padding: 3%;
+    font-size: 15px; /* Tamanho grande para destaque */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Alinhamento centralizado */
+
+}
+
+.produtos, .sobre, .contato {
+    padding: 50px;
+    text-align: center;
+}
+
+.produto-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.produto-item img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.sobre{ 
+    text-align: justify;
+
+
+
+}
+
+.Como{
+
+    text-align: justify;
+    margin: 50px;
+    
+
+}
+.nossos{
+
+    margin: 50px;
+    text-align: left;
+
+}
+
+.produto-item{
+
+    
+        display: flex; /* Define o contêiner como flexível */
+        justify-content: flex-start; /* Alinha os itens no início horizontalmente */
+        align-items: center; /* Alinha os itens verticalmente ao centro */
+        gap: 10px; /* Espaço entre os itens */
+        margin: 20px;
+
+    
+ 
+        padding: 20px;
+        background-color: #e0b2b2;
+        color: rgb(0, 0, 0);
+        border-radius: 5px
+    
+}
+.text{
+    margin: 50px;
+    text-align: center;
+
+
+}
+
